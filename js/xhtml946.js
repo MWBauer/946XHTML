@@ -1,0 +1,12 @@
+var anchorText = "This is an anchor";
+var fixedText = "This is monospaced text";
+var linkText = "Click here to go to anchorText";
+var strikeText = "This is strike out text";
+var subText = "subscript";
+var supText = "superscript";
+document.writeln(anchorText.anchor("top"));
+document.writeln("<br/>" + fixedText.fixed());
+document.writeln("<br/>" + strikeText.strike());
+document.writeln("<br/>This is text with a " + subText.sub());
+document.writeln("<br/>This is text with a " + supText.sup());
+document.writeln("<br/>" + linkText.link("#top"));
